@@ -1,0 +1,19 @@
+{
+  "name": "branches",
+  "version": "1.0.0",
+  "description": "Beautiful data types for Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuki-bot/branches.git"
+  },
+  "author": "moon <me@luna.fyi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuki-bot/branches/issues"
+  },
+  "homepage": "https://github.com/yuki-bot/branches#readme"
+}
