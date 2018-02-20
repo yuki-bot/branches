@@ -26,7 +26,6 @@ declare module "LinkedList/LinkedList" {
         firstN: LinkedListNode<T> | null;
         private lastN;
         private length;
-        constructor();
         add(item: T, index?: number): boolean;
         first(): T | undefined;
         last(): T | undefined;
@@ -35,13 +34,13 @@ declare module "LinkedList/LinkedList" {
         contains(item: T): boolean;
         remove(item: T): boolean;
         clear(): void;
+        toArray(): T[];
+        toString(): string;
+        equals(list: any): boolean;
         protected nodeAtIndex(index: number): LinkedListNode<T> | null;
         protected create(item: T): LinkedListNode<T>;
         readonly size: number;
         readonly isEmpty: boolean;
-        toArray(): T[];
-        toString(): string;
-        equals(list: any): boolean;
         private compare(n1, n2);
     }
 }
