@@ -1,11 +1,4 @@
-import Bucket from "./Bucket/Bucket";
-import Collection from "./Collection/Collection";
-import LinkedList from "./LinkedList/LinkedList";
-import Queue from "./Queue/Queue";
-
-export default {
-    LinkedList,
-    Queue,
-    Collection,
-    Bucket,
-};
+export { default as Bucket } from "./Bucket/Bucket";
+export { default as Collection } from "./Collection/Collection";
+export { default as LinkedList } from "./LinkedList/LinkedList";
+export { default as Queue } from "./Queue/Queue";
