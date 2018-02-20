@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
       "target": "ES2017",
-      "module": "commonjs",
+      "module": "amd",
       "lib": ["es5", "dom", "es2017"],
       "strict": true,
       "noImplicitAny": true,
@@ -9,7 +9,9 @@
       "noUnusedLocals": true,
       "noUnusedParameters": true,
       "experimentalDecorators": true,
-      "outDir": "dist/",
-      "rootDir": "src/"
+      "outFile": "index.js",
+      "rootDir": "src/",
+      "removeComments": true,
+      "declaration": true,
     }
   }
