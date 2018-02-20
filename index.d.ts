@@ -52,7 +52,7 @@ declare module "Queue/Queue" {
         dequeue(): T | undefined;
     }
 }
-declare module "index" {
+declare module "branches" {
     export { default as Bucket } from "Bucket/Bucket";
     export { default as Collection } from "Collection/Collection";
     export { default as LinkedList } from "LinkedList/LinkedList";
