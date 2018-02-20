@@ -253,10 +253,8 @@ define("Queue/Queue", ["require", "exports", "LinkedList/LinkedList"], function 
 define("index", ["require", "exports", "Bucket/Bucket", "Collection/Collection", "LinkedList/LinkedList", "Queue/Queue"], function (require, exports, Bucket_1, Collection_1, LinkedList_2, Queue_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    exports.default = {
-        LinkedList: LinkedList_2.default,
-        Queue: Queue_1.default,
-        Collection: Collection_1.default,
-        Bucket: Bucket_1.default,
-    };
+    exports.Bucket = Bucket_1.default;
+    exports.Collection = Collection_1.default;
+    exports.LinkedList = LinkedList_2.default;
+    exports.Queue = Queue_1.default;
 });

@@ -53,15 +53,8 @@ declare module "Queue/Queue" {
     }
 }
 declare module "index" {
-    import Bucket from "Bucket/Bucket";
-    import Collection from "Collection/Collection";
-    import LinkedList from "LinkedList/LinkedList";
-    import Queue from "Queue/Queue";
-    const _default: {
-        LinkedList: typeof LinkedList;
-        Queue: typeof Queue;
-        Collection: typeof Collection;
-        Bucket: typeof Bucket;
-    };
-    export default _default;
+    export { default as Bucket } from "Bucket/Bucket";
+    export { default as Collection } from "Collection/Collection";
+    export { default as LinkedList } from "LinkedList/LinkedList";
+    export { default as Queue } from "Queue/Queue";
 }
